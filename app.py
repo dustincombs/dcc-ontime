@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template, request
-from group_estimator import GroupbyEstimator, ColumnSelector, hgbc_factory
 from joblib import load
+from group_estimator import GroupbyEstimator, ColumnSelector, hgbc_factory
 import pandas as pd
 import numpy as np
 import json
@@ -8,7 +8,6 @@ import requests
 import os
 from datetime import datetime
 
-model = load('ontime_model.joblib')
 airlines = ['AA', 'DL', 'UA', 'WN', 'AS', 'B6', 'NK', 'F9', 'G4', 'HA']
 
 def make_api_call(formstring):
@@ -67,6 +66,7 @@ def index():
     
 @app.route('/predict',methods=['GET'])
 def get_prediction():
+    model = load('new_model.joblib')
 
     args = request.args
     # resp = make_api_call(json.dumps(args))
@@ -93,4 +93,4 @@ def get_prediction():
             output_list=output_list)
      
 if __name__ == '__main__':
-   app.run(debug=True)
+    app.run(debug=True)

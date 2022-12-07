@@ -1,5 +1,6 @@
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 from sklearn.pipeline import Pipeline
+from sklearn.ensemble import HistGradientBoostingClassifier
 import pandas as pd
 
 class GroupbyEstimator(BaseEstimator, ClassifierMixin):
