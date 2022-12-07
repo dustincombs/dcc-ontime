@@ -8,7 +8,7 @@ import requests
 import os
 from datetime import datetime
 
-# model = load('ontime_model.joblib')
+model = load('ontime_model.joblib')
 airlines = ['AA', 'DL', 'UA', 'WN', 'AS', 'B6', 'NK', 'F9', 'G4', 'HA']
 
 def make_api_call(formstring):
