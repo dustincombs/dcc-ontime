@@ -1,0 +1,1878 @@
+{
+ "request": {
+  "departing": false,
+  "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/from/RDU/to/ATL/arriving/2022/12/8",
+  "departureAirport": {
+   "requestedCode": "RDU",
+   "fsCode": "RDU"
+  },
+  "arrivalAirport": {
+   "requestedCode": "ATL",
+   "fsCode": "ATL"
+  },
+  "date": {
+   "year": "2022",
+   "month": "12",
+   "day": "8",
+   "interpreted": "2022-12-08"
+  }
+ },
+ "scheduledFlights": [
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2600",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T17:50:00.000",
+   "arrivalTime": "2022-12-08T19:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AF",
+     "flightNumber": "2453",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402121
+    },
+    {
+     "carrierFsCode": "LA",
+     "flightNumber": "8593",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402119
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "5274",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402120
+    }
+   ],
+   "referenceCode": "2179-1616583--"
+  },
+  {
+   "carrierFsCode": "LA",
+   "flightNumber": "8593",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T17:50:00.000",
+   "arrivalTime": "2022-12-08T19:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2600",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616583--11402119"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "5274",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T17:50:00.000",
+   "arrivalTime": "2022-12-08T19:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2600",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616583--11402120"
+  },
+  {
+   "carrierFsCode": "AF",
+   "flightNumber": "2453",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T17:50:00.000",
+   "arrivalTime": "2022-12-08T19:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2600",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616583--11402121"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2836",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AF",
+     "flightNumber": "2632",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401274
+    },
+    {
+     "carrierFsCode": "KL",
+     "flightNumber": "5414",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 648790
+    },
+    {
+     "carrierFsCode": "LA",
+     "flightNumber": "8594",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401271
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "5272",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401273
+    },
+    {
+     "carrierFsCode": "WS",
+     "flightNumber": "6775",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401272
+    }
+   ],
+   "referenceCode": "2179-1616690--"
+  },
+  {
+   "carrierFsCode": "KL",
+   "flightNumber": "5414",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2836",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616690--648790"
+  },
+  {
+   "carrierFsCode": "LA",
+   "flightNumber": "8594",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2836",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616690--11401271"
+  },
+  {
+   "carrierFsCode": "WS",
+   "flightNumber": "6775",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2836",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616690--11401272"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "5272",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2836",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616690--11401273"
+  },
+  {
+   "carrierFsCode": "AF",
+   "flightNumber": "2632",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T11:31:00.000",
+   "arrivalTime": "2022-12-08T13:04:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2836",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616690--11401274"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1387",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T20:24:00.000",
+   "arrivalTime": "2022-12-08T22:01:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "7010",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11402410
+    },
+    {
+     "carrierFsCode": "LA",
+     "flightNumber": "6320",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402409
+    }
+   ],
+   "referenceCode": "2179-1616233--"
+  },
+  {
+   "carrierFsCode": "LA",
+   "flightNumber": "6320",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T20:24:00.000",
+   "arrivalTime": "2022-12-08T22:01:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616233--11402409"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "7010",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T20:24:00.000",
+   "arrivalTime": "2022-12-08T22:01:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616233--11402410"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1574",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T13:56:00.000",
+   "arrivalTime": "2022-12-08T15:26:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AF",
+     "flightNumber": "2892",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401458
+    },
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "4059",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401456
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "5278",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401454
+    },
+    {
+     "carrierFsCode": "WS",
+     "flightNumber": "7895",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401460
+    }
+   ],
+   "referenceCode": "2179-1616286--"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "5278",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T13:56:00.000",
+   "arrivalTime": "2022-12-08T15:26:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1574",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616286--11401454"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "4059",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T13:56:00.000",
+   "arrivalTime": "2022-12-08T15:26:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1574",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616286--11401456"
+  },
+  {
+   "carrierFsCode": "AF",
+   "flightNumber": "2892",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T13:56:00.000",
+   "arrivalTime": "2022-12-08T15:26:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1574",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616286--11401458"
+  },
+  {
+   "carrierFsCode": "WS",
+   "flightNumber": "7895",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T13:56:00.000",
+   "arrivalTime": "2022-12-08T15:26:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1574",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616286--11401460"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1585",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T06:48:00.000",
+   "arrivalTime": "2022-12-08T08:27:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "3942",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401042
+    },
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "7008",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 391171
+    }
+   ],
+   "referenceCode": "2179-1616302--"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "7008",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T06:48:00.000",
+   "arrivalTime": "2022-12-08T08:27:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1585",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616302--391171"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "3942",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T06:48:00.000",
+   "arrivalTime": "2022-12-08T08:27:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1585",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616302--11401042"
+  },
+  {
+   "carrierFsCode": "F9",
+   "flightNumber": "1591",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T16:38:00.000",
+   "arrivalTime": "2022-12-08T18:11:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "N",
+   "flightEquipmentIataCode": "32N",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [],
+   "referenceCode": "2179-2166092--"
+  },
+  {
+   "carrierFsCode": "WN",
+   "flightNumber": "1860",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T06:10:00.000",
+   "arrivalTime": "2022-12-08T07:45:00.000",
+   "stops": 0,
+   "departureTerminal": "1",
+   "arrivalTerminal": "N",
+   "flightEquipmentIataCode": "73W",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "F"
+   ],
+   "codeshares": [],
+   "referenceCode": "2179-3806239--"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2758",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T05:30:00.000",
+   "arrivalTime": "2022-12-08T07:01:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "717",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "4309",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 3653236
+    }
+   ],
+   "referenceCode": "2179-1616684--"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "4309",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T05:30:00.000",
+   "arrivalTime": "2022-12-08T07:01:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "717",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2758",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616684--3653236"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1496",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T08:30:00.000",
+   "arrivalTime": "2022-12-08T10:07:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "3899",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 3653161
+    },
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "3732",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 391152
+    }
+   ],
+   "referenceCode": "2179-1616268--"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "3732",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T08:30:00.000",
+   "arrivalTime": "2022-12-08T10:07:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1496",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616268--391152"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "3899",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T08:30:00.000",
+   "arrivalTime": "2022-12-08T10:07:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1496",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616268--3653161"
+  },
+  {
+   "carrierFsCode": "WN",
+   "flightNumber": "388",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T17:20:00.000",
+   "arrivalTime": "2022-12-08T18:45:00.000",
+   "stops": 0,
+   "departureTerminal": "1",
+   "arrivalTerminal": "N",
+   "flightEquipmentIataCode": "73W",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "F"
+   ],
+   "codeshares": [],
+   "referenceCode": "2179-3806218--"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "2634",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T09:44:00.000",
+   "arrivalTime": "2022-12-08T11:16:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "4113",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 3653218
+    }
+   ],
+   "referenceCode": "2179-1616606--"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "4113",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T09:44:00.000",
+   "arrivalTime": "2022-12-08T11:16:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "2634",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616606--3653218"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1741",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T18:50:00.000",
+   "arrivalTime": "2022-12-08T20:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "76W",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "7104",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11402176
+    },
+    {
+     "carrierFsCode": "KL",
+     "flightNumber": "5911",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402175
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "5276",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11402177
+    }
+   ],
+   "referenceCode": "2179-1616337--"
+  },
+  {
+   "carrierFsCode": "KL",
+   "flightNumber": "5911",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T18:50:00.000",
+   "arrivalTime": "2022-12-08T20:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "76W",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1741",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616337--11402175"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "7104",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T18:50:00.000",
+   "arrivalTime": "2022-12-08T20:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "76W",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1741",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616337--11402176"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "5276",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T18:50:00.000",
+   "arrivalTime": "2022-12-08T20:28:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "76W",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1741",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616337--11402177"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "1651",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AM",
+     "flightNumber": "4052",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401731
+    },
+    {
+     "carrierFsCode": "AZ",
+     "flightNumber": "3222",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401728
+    },
+    {
+     "carrierFsCode": "KL",
+     "flightNumber": "5396",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401729
+    },
+    {
+     "carrierFsCode": "LA",
+     "flightNumber": "6292",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 1014293
+    },
+    {
+     "carrierFsCode": "VS",
+     "flightNumber": "5002",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11401730
+    }
+   ],
+   "referenceCode": "2179-1616327--"
+  },
+  {
+   "carrierFsCode": "LA",
+   "flightNumber": "6292",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1651",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616327--1014293"
+  },
+  {
+   "carrierFsCode": "AZ",
+   "flightNumber": "3222",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1651",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616327--11401728"
+  },
+  {
+   "carrierFsCode": "KL",
+   "flightNumber": "5396",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1651",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616327--11401729"
+  },
+  {
+   "carrierFsCode": "VS",
+   "flightNumber": "5002",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1651",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616327--11401730"
+  },
+  {
+   "carrierFsCode": "AM",
+   "flightNumber": "4052",
+   "departureAirportFsCode": "RDU",
+   "arrivalAirportFsCode": "ATL",
+   "departureTime": "2022-12-08T15:28:00.000",
+   "arrivalTime": "2022-12-08T17:00:00.000",
+   "stops": 0,
+   "departureTerminal": "2",
+   "arrivalTerminal": "S",
+   "flightEquipmentIataCode": "757",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "codeshares": [],
+   "operator": {
+    "carrierFsCode": "DL",
+    "flightNumber": "1651",
+    "serviceType": "J",
+    "serviceClasses": [
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "referenceCode": "2179-1616327--11401731"
+  }
+ ],
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "KL",
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM",
+    "active": true
+   },
+   {
+    "fs": "F9",
+    "iata": "F9",
+    "icao": "FFT",
+    "name": "Frontier Airlines",
+    "active": true
+   },
+   {
+    "fs": "AF",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "active": true
+   },
+   {
+    "fs": "LA",
+    "iata": "LA",
+    "icao": "LAN",
+    "name": "LATAM Airlines",
+    "active": true
+   },
+   {
+    "fs": "WN",
+    "iata": "WN",
+    "icao": "SWA",
+    "name": "Southwest Airlines",
+    "active": true
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "active": true
+   },
+   {
+    "fs": "AZ",
+    "iata": "AZ",
+    "icao": "ITY",
+    "name": "ITA Airways",
+    "active": true
+   },
+   {
+    "fs": "KE",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "active": true
+   },
+   {
+    "fs": "WS",
+    "iata": "WS",
+    "icao": "WJA",
+    "name": "WestJet",
+    "active": true
+   },
+   {
+    "fs": "AM",
+    "iata": "AM",
+    "icao": "AMX",
+    "name": "Aeromexico",
+    "active": true
+   },
+   {
+    "fs": "VS",
+    "iata": "VS",
+    "icao": "VIR",
+    "name": "Virgin Atlantic",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "RDU",
+    "iata": "RDU",
+    "icao": "KRDU",
+    "faa": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh/Durham",
+    "cityCode": "RDU",
+    "stateCode": "NC",
+    "postalCode": "27623",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "NCZ041",
+    "localTime": "2022-12-06T08:35:48.939",
+    "utcOffsetHours": -5,
+    "latitude": 35.873592,
+    "longitude": -78.790862,
+    "elevationFeet": 435,
+    "classification": 2,
+    "active": true
+   },
+   {
+    "fs": "ATL",
+    "iata": "ATL",
+    "icao": "KATL",
+    "faa": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "street1": "6000 N Terminal Parkway",
+    "street2": "",
+    "city": "Atlanta",
+    "cityCode": "ATL",
+    "stateCode": "GA",
+    "postalCode": "30320",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "GAZ044",
+    "localTime": "2022-12-06T08:35:48.939",
+    "utcOffsetHours": -5,
+    "latitude": 33.640067,
+    "longitude": -84.44403,
+    "elevationFeet": 1026,
+    "classification": 1,
+    "active": true
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "76W",
+    "name": "Boeing 767-300 (winglets) Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": true,
+    "regional": false
+   },
+   {
+    "iata": "757",
+    "name": "Boeing 757 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "73W",
+    "name": "Boeing 737-700 (winglets) Passenger/BBJ1",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "717",
+    "name": "Boeing 717-200",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "32N",
+    "name": "Airbus A320neo",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   }
+  ]
+ }
+}
