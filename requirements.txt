@@ -55,7 +55,6 @@ prompt-toolkit==3.0.24
 psutil==5.9.0
 ptyprocess==0.7.0
 pure-eval==0.2.2
-pycosat==0.6.4
 pycparser==2.21
 pygame==2.0.2
 Pygments==2.11.2
