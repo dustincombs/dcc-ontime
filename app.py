@@ -71,11 +71,11 @@ def get_prediction():
     model = load('new_model.joblib')
 
     args = request.args
-    # resp = make_api_call(json.dumps(args))
-    # response_df = parse_response(resp.text)
-    f = open('./cirium-schedule.json')
-    text = f.read()
-    response_df = parse_response(text)
+    resp = make_api_call(json.dumps(args))
+    response_df = parse_response(resp.text)
+    # f = open('./cirium-schedule.json')
+    # text = f.read()
+    # response_df = parse_response(text)
     response_df.reset_index(inplace=True)
     response_df['probs'] = model.predict_proba(response_df)[:,-1]*100
 
