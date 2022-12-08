@@ -32,7 +32,10 @@ def make_api_call(formstring):
     
 def parse_response(text):
     fl_list = json.loads(text)
-    dep_airport, arr_airport = [fl_list['appendix']['airports'][i] for i in [0,1]]
+    acode, dcode = [fl_list['request'][k]['fsCode'] for k in ['arrivalAirport','departureAirport']]
+    ap_info = {d['fs']: d for d in fl_list['appendix']['airports']}
+    arr_airport, dep_airport = [ap_info[k] for k in [acode,dcode]]
+
     tzdelta = int(arr_airport['utcOffsetHours']) - int(dep_airport['utcOffsetHours'])
     astring, dstring = [f"{d['city']}, {d['stateCode']} ({d['iata']})" for d in [arr_airport, dep_airport]]
     aldict = {d['iata']:d['name'] for d in fl_list['appendix']['airlines']}
