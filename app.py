@@ -9,8 +9,8 @@ import os
 from datetime import datetime
 
 airlines = ['AA', 'DL', 'UA', 'WN', 'AS', 'B6', 'NK', 'F9', 'G4', 'HA']
-model = load('new_model.joblib')
-
+with open("new_model.joblib","r") as f:
+    model = load(f)
 
 def make_api_call(formstring):
     formdata = json.loads(formstring)
