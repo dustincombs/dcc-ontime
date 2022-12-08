@@ -1,21 +1,3 @@
-
-// urls for geojson data
-// var urlQuakes = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
-// var urlFaults = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
-// var urlFAA = "https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/arcgis/rest/services/US_Airport/FeatureServer/0/query?where=1%3D1&outFields=GLOBAL_ID,IDENT,NAME,LATITUDE,LONGITUDE,ICAO_ID&outSR=4326&f=json"
-
-// // get airport data
-// async function getFaultlines() {
-//   let data = await d3.json(urlFAA)
-//   return data.features
-// }
-// const faultPromise = getFaultlines()
-
-// // get the earthquake data
-// d3.json(urlQuakes).then(function(data) {
-//   // send the features to the makeMap function
-// const myAirports = ["ATL","DFW","IAH","ORD","DEN","LAX","CLT","LAS","PHX","MCO"];
-
 makeMap(data.features);
 
 // create the map
@@ -29,7 +11,7 @@ function makeMap(features){
     );
   }
   
-
+  var token = "pk.eyJ1IjoiZGNjb21icyIsImEiOiJja2lydWVwbnkwYWg4MzVvMXJmaDhieGxrIn0.LRVQLFWbFhAjvhfCUBwjAA"
   // create dark map
   var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -38,7 +20,7 @@ function makeMap(features){
     maxZoom: 12,
     zoomOffset: -1,
     id: "mapbox/dark-v10",
-    accessToken: token
+    accessToken: 
   });
 
   // create light map
@@ -64,7 +46,6 @@ function makeMap(features){
     pointToLayer: function (feature, coordinates) {
         return L.circleMarker(coordinates, {
           radius:20*feature.properties.passengers/scale,
-          // fillColor:d3.interpolateCool((feature.properties.passengers-minPass)/scale),
           fillColor:d3.interpolateCool(0.5),
           weight:1,
           color:"white",
@@ -108,6 +89,5 @@ function makeMap(features){
     // Pass our map layers into our layer control
     // Add the layer control to the map
   L.control.layers(baseMaps,featureLayers).addTo(myMap);
-
 
 }
