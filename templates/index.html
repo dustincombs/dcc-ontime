@@ -35,7 +35,6 @@
   </div>
 </nav>
 <div class="container">
-
 	<div class="row">
 		<div class="col-md-8">
 			<h1>Flight Information</h1>
@@ -65,8 +64,8 @@
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Departing Airport</label><br/>
-          <select class="form-select" aria-label="Departing" name="departing_airport">
-            <option selected>Open this select menu</option>
+          <select class="form-select" aria-label="Departing" name="departing_airport" required>
+            <!-- <option selected>Open this select menu</option> -->
             {% for o in option_list %}
             <option value="{{ o.iata }}">{{ o.name }}</option>
             {% endfor %}        
@@ -83,8 +82,8 @@
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Arriving Airport</label><br/>
-        <select class="form-select" aria-label="Arriving" name="arriving_airport">
-          <option selected>Open this select menu</option>
+        <select class="form-select" aria-label="Arriving" name="arriving_airport" required>
+          <!-- <option selected>Open this select menu</option> -->
           <option value="ATL">Atlanta, GA: Hartfield Jackson International (ATL)</option>
           <option value="BOS">Boston, MA: General Edward Lawrence Logan International (BOS)</option> 
           <option value="CLT">Charlotte, NC: Charlotte/Douglas International (CLT)</option> 
@@ -109,7 +108,7 @@
       <div class="mb-3">
         <label for="datetimepicker2Input" class="form-label">Arrival Time</label>
         <div class="input-group" id="datetimepicker2" data-td-target-input="nearest" data-td-target-toggle="nearest">
-        <input id="datetimepicker2Input" type="text" class="form-control" data-td-target="#datetimepicker2" name="arrival_date"/>
+        <input id="datetimepicker2Input" type="text" class="form-control" data-td-target="#datetimepicker2" name="arrival_date" required/>
         <span class="input-group-text" data-td-target="#datetimepicker2" data-td-toggle="datetimepicker">
           <span class="fas fa-calendar"></span>
         </span>
@@ -118,28 +117,19 @@
       <input class="btn btn-primary" type="submit" value="Submit" name="submit">
       </form>
     </div>
-		<div class="col-md-4">
-      <!-- <h1>Visualizations</h1>
-      <div class="row">
-        <div class="col-6">
-          <a href="viz1.html"><img class="img-fluid" alt="temperature vs latitude" src="assets/images/Fig1.png"></a>
-        </div>
-        <div class="col-6">
-          <a href="viz2.html"><img class="img-fluid" alt="humidity vs latitude" src="assets/images/Fig2.png"></a>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col-6">
-          <a href="viz3.html"><img class="img-fluid" alt="cloudiness vs latitude" src="assets/images/Fig3.png"></a>
-        </div>
-        <div class="col-6">
-          <a href="viz4.html"><img class="img-fluid" alt="wind speed vs latitude" src="assets/images/Fig4.png"></a> -->
-        </div>    
-      </div>
-		</div>
 	</div>
 </div>
 <br/><br/>
+{% if empty_response %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <p class="text-danger">No flights found.</p>
+    </div>
+  </div>
+</div>
+{% endif %}
+
 {% if table %}
 <div class="container">
   <div class="table-responsive">

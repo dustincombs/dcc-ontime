@@ -79,15 +79,14 @@ function makeMap(features){
     layers: [darkmap, ports]
   });
 
-
-
-    // create feature layers    
-    var featureLayers = {
-      "Top 20 Airports":topports,
-      "All Airports":ports
-    };
-    // Pass our map layers into our layer control
-    // Add the layer control to the map
-  L.control.layers(baseMaps,featureLayers).addTo(myMap);
+  // create feature layers    
+  var featureLayers = {
+    "Top 20 Airports":topports,
+    "All Airports":ports
+  };
+  
+  // Pass our map layers into our layer control
+  // Add the layer control to the map
+  L.control.layers(baseMaps,featureLayers,link).addTo(myMap);
 
 }

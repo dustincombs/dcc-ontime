@@ -32,6 +32,9 @@ def make_api_call(formstring):
     
 def parse_response(text):
     fl_list = json.loads(text)
+    df = pd.DataFrame(fl_list['scheduledFlights'])
+    if df.empty:
+        return df
     acode, dcode = [fl_list['request'][k]['fsCode'] for k in ['arrivalAirport','departureAirport']]
     ap_info = {d['fs']: d for d in fl_list['appendix']['airports']}
     arr_airport, dep_airport = [ap_info[k] for k in [acode,dcode]]
@@ -39,7 +42,6 @@ def parse_response(text):
     tzdelta = int(arr_airport['utcOffsetHours']) - int(dep_airport['utcOffsetHours'])
     astring, dstring = [f"{d['city']}, {d['stateCode']} ({d['iata']})" for d in [arr_airport, dep_airport]]
     aldict = {d['iata']:d['name'] for d in fl_list['appendix']['airlines']}
-    df = pd.DataFrame(fl_list['scheduledFlights'])
     
     cutdf = df[df['carrierFsCode'].isin(airlines)].copy()
     cutdf.rename(columns={'arrivalAirportFsCode':'dest'},inplace=True)
@@ -72,13 +74,21 @@ def index():
 @app.route('/predict',methods=['GET'])
 def get_prediction():
     model = load('new_model.joblib')
+    with open("ap_select.json","r") as infile:
+        option_list = json.load(infile)    
 
     args = request.args
     resp = make_api_call(json.dumps(args))
     response_df = parse_response(resp.text)
-    # f = open('./cirium-schedule.json')
+    # f = open('./one-schedule.json')
     # text = f.read()
     # response_df = parse_response(text)
+    if response_df.empty:
+            return render_template('index.html',
+                option_list=option_list, 
+                table=False,
+                empty_response=True)
+ 
     response_df.reset_index(inplace=True)
     response_df['probs'] = model.predict_proba(response_df)[:,-1]*100
 
@@ -98,4 +108,4 @@ def get_prediction():
             output_list=output_list)
      
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
