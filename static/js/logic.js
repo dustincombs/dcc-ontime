@@ -87,6 +87,6 @@ function makeMap(features){
   
   // Pass our map layers into our layer control
   // Add the layer control to the map
-  L.control.layers(baseMaps,featureLayers,link).addTo(myMap);
+  L.control.layers(baseMaps,featureLayers).addTo(myMap);
 
 }
